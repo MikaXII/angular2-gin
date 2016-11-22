@@ -17,7 +17,6 @@ import { BrowserModule } from '@angular/platform-browser';
 })
 
 export class AppComponent implements OnInit {
-  //title = 'app works!';
   public title: string;
   constructor(private _dataService: DataService){}
 
