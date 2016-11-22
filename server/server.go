@@ -1,4 +1,4 @@
-package main
+package server
 
 import (
 	"net/http"
@@ -6,7 +6,8 @@ import (
 	"gopkg.in/gin-gonic/gin.v1"
 )
 
-func main() {
+// StartSrv
+func StartSrv() {
 
 	router := gin.Default()
 
